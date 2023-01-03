@@ -15,8 +15,10 @@ ao usuário.
 
 ![Example Running](https://github.com/DanielVisicatto/BinaryConverter/blob/master/Img/example.png)
 
-#Melhorias a serem feitas:
-Estarei colocando a opção de codificar uma frase quando colocada em texto.
-
+# Melhorias a serem feitas:
+ * Colocar a opção de codificar uma frase quando colocada em texto.
+ * Tratar possíveis erros na entrada do usuário.
+ * Fazer o FrontEnd.
+ 
 ## Autor
 - [@DanielVisicatto](https://www.github.com/DanielVisicatto)
