@@ -1,5 +1,5 @@
 
-![alt text](C:\Users\D4ni3L\Desktop\BreakingDev\BackEnd\CSharpDotNet\ProjPessoais\BinaryConverter\Img\BinCode.jpg)
+![Binary Codes](https://github.com/DanielVisicatto/BinaryConverter/blob/master/Img/BinCode.jpg)
 
 # Tradutor de binario para texto 
 
@@ -10,7 +10,7 @@ valores previamente estipulados em um dicionário chave-valor, convertendo
 cada código ao seu caractere correspondente e entregando a frase montada 
 ao usuário.
 
-![alt text](C:\Users\D4ni3L\Desktop\BreakingDev\BackEnd\CSharpDotNet\ProjPessoais\BinaryConverter\Img\example.png)
+![Example Running](https://github.com/DanielVisicatto/BinaryConverter/blob/master/Img/example.png)
 
 #Melhorias a serem feitas
 Estarei colocando a opção de codificar uma frase quando colocada em texto.
