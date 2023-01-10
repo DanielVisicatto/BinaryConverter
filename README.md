@@ -16,9 +16,9 @@ ao usuário.
 ![Example Running](https://github.com/DanielVisicatto/BinaryConverter/blob/master/Img/example.png)
 
 # Melhorias a serem feitas:
- * Adicionar menu de escolha entre conversão de binário para texto e de texto para binário.
- * Tratar possíveis erros na entrada do usuário.
- * Fazer o FrontEnd.
+
+ - [x] Adicionar menu de escolha entre conversão de binário para texto e de texto para binário.
+ - [ ] Fazer o FrontEnd.
  
 ## Autor
 - [@DanielVisicatto](https://www.github.com/DanielVisicatto)
