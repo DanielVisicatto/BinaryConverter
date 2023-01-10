@@ -4,7 +4,7 @@ Console.WriteLine("Paste you binary code here...");
 string input = Console.ReadLine().Replace(" ", string.Empty);
 string output = "";
 
-Characters characters = new Characters();
+Characters characters = new();
 
 for (int i = 0; i < input.Length; i += 8)
 {
@@ -15,5 +15,5 @@ for (int i = 0; i < input.Length; i += 8)
         output += asciiCharacter;
     }
 }
-Console.WriteLine("\nYour code returns...\n******************************\n{0}\n******************************",
+Console.WriteLine("\nYour code returns...\n\n******************************\n\n{0}\n\n******************************",
     output);
