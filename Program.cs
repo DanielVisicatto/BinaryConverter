@@ -37,24 +37,34 @@ while(userOption >= 0 && userOption != 3)
 
             case 2:
                 Console.Clear();
-                input = "";
-                output = "";
-
-                Console.WriteLine("Enter you text to convert to binary:");
+                Console.WriteLine("Enter your ASCII code here...");
                 input = Console.ReadLine();
+                output = "";
 
                 foreach (char c in input)
                 {
-                    string binary = Convert.ToString(c, 2).PadLeft(8, '0');
-                    for (int i = 0; i < binary.Length; i += 8)
+                    string binaryValue = string.Empty;
+                    
+                    foreach (var entry in characters.binaryCodeDictionary)
                     {
-                        string binaryValue = binary.Substring(i, 8);
-                        output += binaryValue + " ";
+                        if (entry.Value == c)
+                        {
+                            binaryValue = entry.Key;
+                            break;
+                        }
                     }
+
+                    output += binaryValue;
                 }
 
-                Console.WriteLine("\nBinary representation of the input string:");
-                Console.WriteLine("\n******************************\n\n{0}\n\n******************************", output);
+                Console.WriteLine("\nBinary representation of the input string:\n******************************\n\n");
+                
+                for (int i = 0; i < output.Length; i += 8)
+                {
+                    string binaryValue = output.Substring(i, 8);
+                    Console.Write("{0} ", binaryValue);
+                }
+                Console.WriteLine("\n\n ******************************");                
 
                 break;
 
